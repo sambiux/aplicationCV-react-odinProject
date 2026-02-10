@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+h4{
+    color: blue;
+}
+
+.editInfoCv > div{
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+}
+
+.editInfoCv input{
+    border: 2px solid black;
+    border-radius: 7px;
+    
+}
+
+
+.infoGeneral-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70vh;
+    gap: 3vh;
+    transition: 400ms box-shadow 500ms;
+    padding: 4vh;
+    font-family: "Libre Baskerville", serif;
+   
+    
+}
+
+.infoGeneral-info > p{
+    display: flex;
+    margin-left: 9vh;
+    font-family: "Rowdies", sans-serif;
+    margin-left: 11vh;
+}   
+
+.infoGeneral-info > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.infoGeneral-info > div > div{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.infoGeneral-info > div > div img{
+    width: 3vh;
+    height: 3vh;
+}
+
+
+.infoGeneral-info:hover{
+    box-shadow: 5px 5px 5px blue;
+}
+
+
+
+.showInfoCv > div{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 4vh;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
